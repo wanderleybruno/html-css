@@ -7,13 +7,19 @@ body {
     height: 100vh;
     background: url('imagens/espaco.jpg') center center;
     background-size: cover;
-
-}
-
-.astronauta {
-    width: 300px;
-    background-image: url(imagens/astronauta.png);
-    background-position: relative;
-
+    position: relative;
     
+
 }
+
+.astronauta img {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ }
+ 
