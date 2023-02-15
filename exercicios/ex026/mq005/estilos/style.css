@@ -21,16 +21,16 @@ header > h1 {
     text-align: center;
 }
 
-span#burguer {
+i#burguer {
     background-color: rgb(48, 48, 48);
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 
-span#burguer:hover {
+i#burguer:hover {
     background-color: white;
     color: black;
 }
